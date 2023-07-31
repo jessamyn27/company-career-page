@@ -27,7 +27,7 @@
 - show the job title and or id or another dynamic routing data as url params as a user clicks through the job board, specific job, and search results 🐙
 - create child components for the search, detailed job, and utilities for some of the functions used like the fetch and handleclicks while of course passing children state as props as needed. right now they all live in the <Careers/> component and it's best to have each component have one job to do especially to help control state 🐬
 - speaking of state, next steps is also to hook in redux and hoist up that state to one global spot for all to use and be updated! 🦄
-- search time! okay i did not wanna go over this time limit  y'all set so I just made the search show a list of the titles or locations if they existed... obviously a relevant search would be to select from the drowndown OR type and when you find whatcha want and click the 'search results' button, the list would re-render with the array of job objects again so you could then click on each one 🦩
+- search time! okay i did not wanna go over this time limit  y'all set so I just made the search show a list of the titles or locations if they existed... obviously a relevant search would be to select from the drown down or, input type and when you find whatcha want and click the button, the list would re-render with the array of job objects again based on the id so you could then click on each one 🦩
 
 #### Objective:
 - Take Home assignment is pretty free form, as in there is no “correct” result. We are interested in knowing how you solve a task and set of requirements and user stories, as well how you approach the application from an architectural standpoint. 
