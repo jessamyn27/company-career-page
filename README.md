@@ -1,9 +1,8 @@
-# e-commerce-site
-#### vanilla javascript, html, css and sass e-commerce single page app that is fully mobile to desktop responsive with carousels, animation, interaction, hover and search! note that it is a spa that has empty links and hrefs intentionally, check it out on your phone too!
+# company-career-page
+#### Company Career Page in React using MUI with search and save! 🐬 🦄 🐳 🐙
 
 
 ## Table of Contents
-
 **[Quick Links](#Quick-Links)**<br>
 **[First Looks](#First-Looks)**<br>
 **[Set Up and Run Locally](#Set-Up-and-Run-Locally)**<br>
@@ -11,12 +10,13 @@
 
 
 ## Quick Links
-
-### click here to view live site --> [ e-commerce-spa website](https://jessamyn27.github.io/e-commerce-spa/)
+### click here to view live site --> [company-career-page](https://jessamyn27.github.io/company-career-page )
 
 ## First Looks
-
-### ![](src/assets/images/jot-fullpage.png)
+### ![](src/images/screenshot-1-unity.png)
+### ![](src/images/srcreenshot-2-unity.png)
+### ![](src/images/screenshot-3-unity.png)
+### ![](src/images/screenshot-4-unity.png)
 
 ## Set Up and Run Locally
 - 1. clone project on your local machine [cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
@@ -24,35 +24,31 @@
 - 3. right click index.html and open locally in browser
 
 ## Next Steps to Continue
-
-- i didn't wanna pay the $99 bucks to get those specific icons from font awesome (only the fa-solid are free now) so i created svg's and added them to a sprite and mapped with ids which made them not easy to use css to style size and colors, in production setting this wouldn't be an issue...
-- my sketch app on my browser was having trouble finind the open sans fonts since it wasn't embedded in the file and had to add the missing fonts as a custom embed which means i had to choose replacements and their corresponding weights... so i didn't have the most accurate data and had to eyeball it from the pdf in the assets folder, think i did a pretty good job but you may see some areas that are not pixel perfect. Obviously in production I would get this resolved with the designer 
-- test and clean up run time efficiency based on Google Analytics (image optimization, lazy-loading)
-- create more reusable, flexible components and variables for scalability, readability, and efficiency like form, inputs, error validation ect...
-- carousels can always have improvements like swipping capability for touchscreen and mobile, click and tap functionality on image ect.. 
+- show job title and or id or other dynamic routing date as url params as user clicks through job board, specific job and search results 🐙
+- create child components for the search, detailed job and utilities for some of the functions used like the fetch and handleclicks while of course passing children state as props as needed. right now they all live in the <Careers/> component and it's best to have each component have one job to do especially to help control state 🐬
+- speaking of state, next steps is also to hook in redux and hoist up that state to one global spot for all to use and be updated! 🦄
 
 #### Objective:
+- Take Home assignment is pretty free form, as in there is no “correct” result. We are interested in knowing how you solve a task and set of requirements and user stories, as well how you approach the application from an architectural standpoint. 
+- Visually you can go with what makes sense or you think you can solve the problem in the best and most efficient way, custom styling to Material UI, is all accepted. But make it as user friendly and nice as possible.
+- Create a React application (clone this repo) with JavaScript / TypeScript support that consumes the API endpoint of Greenhouse (specifications in the bottom of this document).
+ - Greenhouse is our recruitment software which is also what our careers.unity.com is built upon.
+- Please do not share endpoints, or use more effort than 2 - 3 hours max.
 
-- This project is a single page.
-- There are two png files in the main folder, one for normal state and one for all the hover states.
-- We are expecting a pixel perfect match to the mocks.
-- There is a sketch file as well (ST_Dev_Test_Project.sketch) that you can inspect objects.
-- Use the OpenSans Google Font. (https://fonts.google.com/specimen/Open+Sans)
-- All assets are in the Jot Shop folder
-- The website should scale to fit any monitor size (minus 80px on each side).
-- While you don’t have to link to any additional pages, we do want to see all hover states implemented.
-- The hero section is a carousel.
-- Use Font Awesome 6.4.0 for icons
-- The main nav menu needs to have animation for hover state.  
-- If the mouse comes from the left to hover over the nav item, the hover state bar under the menu item should slide in from the left.
-- If the mouse comes from the right to hover over the nav item, the hover state bar under the menu item should slide in from the right.
-- The hover state bar should never go outside the left/right bounds of the menu item.
-- The website should be fully responsive and look just as good on mobile as it does on desktop and tablet.
+#### User stories
+- As a User, I should be able to get an overview of all job positions, so I can find the relevant job positions.
+- As a User, I should be able to get a detailed view of a single job on a page, so I can read and share.
+- Bonus As a User, I should be able to search through the overview using the titles, so I can quickly find positions relevant for me.
 
-#### For mobile:
-- We purposefully refrained from providing a mobile mock.
-- We want to see how you would make it responsive.
+#### Requirements
+- React
+- Typescript / JavaScript
+- MaterialUI
 
+#### Think of using
+- TS Interface
+- Dynamic routes
+- Use Hooks (state, effect etc.)
 
 ## License
 
