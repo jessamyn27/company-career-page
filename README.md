@@ -10,7 +10,7 @@
 
 
 ## Quick Links
-### click here to view live site --> [company-career-page](https://jessamyn27.github.io/company-career-page )
+### click here to view live site --> [company-career-page](https://company-career-page.netlify.app/)
 
 ## First Looks
 ### ![](src/images/screenshot-1-unity.png)
