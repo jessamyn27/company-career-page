@@ -19,9 +19,10 @@
 ### ![](src/images/screenshot-4-unity.png)
 
 ## Set Up and Run Locally
-- 1. clone project on your local machine [cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- 2. open a project in your IDE (ie: visual studio)
-- 3. npm run start and it should open in your browser : note the .env file is added back so the API endpoint should dynamically set when the fetch is made
+- 1. clone project on your local machine [cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) in this case in the command line i typed: 'git clone https://github.com/jessamyn27/company-career-page.git'
+- 2. open a project in your IDE (ie: visual studio) in my case i typed: 'code .' at the root folder to shortcut into VS
+- 3. in the command line type: 'npm install' to install all dependencies, mainly react and MUI
+  4. in the command line type: 'npm run start' and it should open in your browser : note the .env file is added back so the API endpoint should dynamically set when the fetch is made
 
 ## Next Steps to Continue
 - show the job title and or id or another dynamic routing data as url params as a user clicks through the job board, specific job, and search results 🐙
