@@ -10,7 +10,7 @@
 
 
 ## Quick Links
-### click here to view live site --> [company-career-page](https://jessamyn27.github.io/company-career-page )
+### click here to view live site --> [company-career-page](https://company-career-page.netlify.app/)
 
 ## First Looks
 ### ![](src/images/screenshot-1-unity.png)
@@ -20,13 +20,14 @@
 
 ## Set Up and Run Locally
 - 1. clone project on your local machine [cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- 2. open project in your IDE (ie: visual studio)
-- 3. right click index.html and open locally in browser
+- 2. open a project in your IDE (ie: visual studio)
+- 3. right click index.html and open it locally in the browser
 
 ## Next Steps to Continue
-- show job title and or id or other dynamic routing date as url params as user clicks through job board, specific job and search results 🐙
-- create child components for the search, detailed job and utilities for some of the functions used like the fetch and handleclicks while of course passing children state as props as needed. right now they all live in the <Careers/> component and it's best to have each component have one job to do especially to help control state 🐬
+- show the job title and or id or another dynamic routing data as url params as a user clicks through the job board, specific job, and search results 🐙
+- create child components for the search, detailed job, and utilities for some of the functions used like the fetch and handleclicks while of course passing children state as props as needed. right now they all live in the <Careers/> component and it's best to have each component have one job to do especially to help control state 🐬
 - speaking of state, next steps is also to hook in redux and hoist up that state to one global spot for all to use and be updated! 🦄
+- search time! okay i did not wanna go over this time limit  y'all set so I just made the search show a list of the titles or locations if they existed... obviously a relevant search would be to select from the drown down or, input type and when you find whatcha want and click the button, the list would re-render with the array of job objects again based on the id so you could then click on each one 🦩
 
 #### Objective:
 - Take Home assignment is pretty free form, as in there is no “correct” result. We are interested in knowing how you solve a task and set of requirements and user stories, as well how you approach the application from an architectural standpoint. 
