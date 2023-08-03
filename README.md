@@ -21,7 +21,7 @@
 ## Set Up and Run Locally
 - 1. clone project on your local machine [cloning-a-repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - 2. open a project in your IDE (ie: visual studio)
-- 3. right click index.html and open it locally in the browser
+- 3. npm run start and it should open in your browser : note the .env file is added back so the API endpoint should dynamically set when the fetch is made
 
 ## Next Steps to Continue
 - show the job title and or id or another dynamic routing data as url params as a user clicks through the job board, specific job, and search results 🐙
